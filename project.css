@@ -1,0 +1,33 @@
+body
+{
+    padding: 2rem 6.30rem;
+}
+#search-box #search-bar
+{
+    width: 55%;
+}
+#cart
+{
+    width: 30%;
+}
+#products
+{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    width: 100%;
+    text-align: center;
+    margin: auto;
+}
+
+@media only screen and(max-width: 575px) 
+{
+    body
+    {
+        padding: 2rem 2rem;
+    }
+    #search-box #search-bar
+    {
+        width: 100%;
+    }
+}
